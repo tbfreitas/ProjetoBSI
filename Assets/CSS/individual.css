@@ -4,6 +4,12 @@
 	 background-color: #B8C4CC;
 }
 
+.devSpace{
+	float : left;
+	 width: 10%; height: 100%;
+	 border-right: 1px solid white;
+}
+
 .teste{
 	font-family: 'Montserrat', sans-serif;
 	color : #FFFFFF;
@@ -69,7 +75,7 @@ header{
 .imageFromBox{
 	display: inline-block;
     vertical-align: middle;
-    
+
 }
 
 .secondFromBox{
