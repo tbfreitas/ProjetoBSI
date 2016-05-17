@@ -7,7 +7,9 @@ app.directive('block', function(){
 			team:'='
 		},
 		templateUrl : 'app/Teams/directives/block/block.html',
-		link: function (scope) {	      
+		link: function (scope,element, attrs) {			
+
+			scope.team = scope.team;    
 			
 	    }	
 	}

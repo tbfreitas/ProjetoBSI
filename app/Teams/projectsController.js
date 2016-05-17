@@ -3,17 +3,21 @@ app.controller('teamsController',['$scope', function($scope){
 	$scope.teams = {
 	"Teams" : 
 		 [{
-			"Nome" : "Cobol"
+			"Nome"  : "Cobol",
+			"Image" : "Assets/Images/cobol.png"
 		},
 		{
-			"Nome" : "Java"
+			"Nome" : "Java",
+			"Image" : "Assets/Images/java.png"
 		},
 		{
-			"Nome" : "BigData"
+			"Nome" : "BigData",
+			"Image" : "Assets/Images/bigdata.png"
 
 		},
 		{
-			"Nome" : "ETL"
+			"Nome" : "ETL",
+			"Image" : "Assets/Images/etl.png"
 		}]
 	};
 
