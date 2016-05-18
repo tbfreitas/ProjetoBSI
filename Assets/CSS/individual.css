@@ -6,8 +6,11 @@
 
 .devSpace{
 	float : left;
-	 width: 10%; height: 100%;
-	 border-right: 1px solid white;
+	width: 10%;
+	height: 100%;
+	border-right: 1px solid white;
+	color : white;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .teste{
@@ -31,7 +34,8 @@ header{
 .projectName{
 	display:block;
 	line-height: 80px; 
-	width:100px; height: 100%;
+	width:100px;
+	height: 100%;
 	margin: 0 auto;
 }
 
@@ -82,4 +86,12 @@ header{
 	border-top: 2px solid grey; 
 	height: 20%; 
 	width: 100%;
+}
+
+.BSImage{
+	max-width: 80px;
+	max-height: 100%;
+	left: 5%;
+	position: absolute;
+	margin-left: -40px;
 }
