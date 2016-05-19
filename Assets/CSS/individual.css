@@ -1,7 +1,7 @@
 .body{
 	 margin: 0px;
 	 height: 100%; 
-	 background-color: #B8C4CC;
+	 background-color: #ddd;
 }
 
 .devSpace{
@@ -94,4 +94,12 @@ header{
 	left: 5%;
 	position: absolute;
 	margin-left: -40px;
+}
+
+.biggestBox:hover{
+    cursor: pointer;
+}
+
+.biggestBox:hover span{
+    color:lightgreen;
 }
