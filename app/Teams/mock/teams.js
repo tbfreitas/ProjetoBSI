@@ -10,20 +10,7 @@
 		},
 		{
 			"Nome" : "BigData",
-			"Image" : "Assets/Images/bigdata.png",
-			"Funcionarios" : 
-				[{
-					"Nome" : "Tarcisio"
-				},
-				{
-					"Nome" : "Michel"
-				},
-				{
-					"Nome" : "Henrique"
-				},
-				{
-					"Nome" : "Mario"
-				}]			
+			"Image" : "Assets/Images/bigdata.png"
 
 		},
 		{

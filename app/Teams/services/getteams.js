@@ -1,19 +1,16 @@
 app.service('getteams',['$http','$rootScope' ,  function($http, $rootScope) {
   
   return{
-      saveteam : saveteam,
       getteam  : getteam
   }
 
-  var team; 
-
-  function saveteam(teamName) {
+  function getteam(teamName,onSuccess,onError) {
 
     var url = 'app/Teams/mock/Teams/' + teamName +'.js';
 
     $http.get(url)
          .success(function(data){
-              $rootScope.team = data;
+              onSuccess(data);
 
          })           
          .error(function(data){
@@ -21,11 +18,6 @@ app.service('getteams',['$http','$rootScope' ,  function($http, $rootScope) {
           })
       
   };
-
-  function getteam(){
-      return team;
-  };
-
 
 
 }]);

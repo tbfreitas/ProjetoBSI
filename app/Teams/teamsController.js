@@ -4,14 +4,9 @@ app.controller('teamsController',['$scope','requests','getteams', '$http', '$roo
 		
 		$scope.teams = data;	
 
-
 	}, function(data) {        
         console.log("Não consegui pegar o getMock");
     })
 
-	$scope.teste = function(team){			
-
-		$rootScope.team = team;	
-	};
 
 }]);
