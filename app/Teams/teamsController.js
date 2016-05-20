@@ -12,7 +12,6 @@ app.controller('teamsController',['$scope','requests','getteams', '$http', '$roo
 	$scope.teste = function(team){			
 
 		$rootScope.team = team;	
-		console.log(team);
 	};
 
 }]);

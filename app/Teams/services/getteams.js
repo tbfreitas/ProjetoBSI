@@ -1,4 +1,4 @@
-app.service('getteams',['$http', function($http) {
+app.service('getteams',['$http','$rootScope' ,  function($http, $rootScope) {
   
   return{
       saveteam : saveteam,
@@ -13,8 +13,8 @@ app.service('getteams',['$http', function($http) {
 
     $http.get(url)
          .success(function(data){
-              team = data;
-              console.log(team);
+              $rootScope.team = data;
+
          })           
          .error(function(data){
             console.log("Teste de erro.");
@@ -22,7 +22,7 @@ app.service('getteams',['$http', function($http) {
       
   };
 
-  var getteam = function(){
+  function getteam(){
       return team;
   };
 

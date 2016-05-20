@@ -4,15 +4,15 @@ app.config(['$routeProvider', function($routeProvider) {
 
     $routeProvider.
       when('/', {
-        templateUrl: 'index.html',
+        templateUrl: 'team.html',
         controller: 'teamsController'
       }).
-      when('/employers.html', {
+      when('/employers/:teamNome?', {
         templateUrl: 'employers.html',
         controller: 'employersController'
       }).     
       otherwise({
-        redirectTo: '/index'
+        redirectTo: '/team.html'
       });
 
 }]);

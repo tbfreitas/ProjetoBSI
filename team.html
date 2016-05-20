@@ -1,0 +1,33 @@
+
+	<body ng-app="app" class="body">
+		<header>
+			<div class="devSpace">
+				<img class="BSImage" src="Assets/Images/BSILogoBrancoQuad.png">
+			</div>
+
+			<span class="teste projectName">
+				BSI TEAMS
+			</span>
+			
+		</header>
+
+		<div style="width: 100%; height: 5px; background-color: #505050;"></div>
+		
+		<!--USAR NG-VIEW AQUI PARA A ROTA FUNCIONAR -->
+
+		<div id="spacePlot" ng-controller="teamsController" style="width: 100%;" >
+			<div ng-repeat="team in teams.Teams" >
+				<a ng-href="#/employers/?teamNome={{team.Nome}}" ><block team='team' ng-click="teste(team)"></block>
+				</a>
+			</div>
+		</div>
+		
+		
+		<script src="app/app.js"></script>
+
+	    <script src="app/Teams/teamsController.js"></script>	
+	    <script src="app/Teams/directives/block/block.js"></script>	
+	    <script src="app/Teams/services/requests.js"></script>	
+		<script src="app/Teams/services/getteams.js"></script>
+	</body>
+
