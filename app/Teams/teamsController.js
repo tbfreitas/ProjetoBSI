@@ -1,17 +1,18 @@
-app.controller('teamsController',['$scope','requests','getteams', '$http',function($scope,requests,getteams,$http){
+app.controller('teamsController',['$scope','requests','getteams', '$http', '$rootScope',function($scope,requests,getteams,$http,$rootScope){
 
 	requests.getMock(function(data){
 		
-		$scope.teams = data;		
+		$scope.teams = data;	
+
 
 	}, function(data) {        
         console.log("Não consegui pegar o getMock");
     })
 
-	$scope.teste = function(team){		
-		
-		getteams.saveteam(team.Nome);		
-		
+	$scope.teste = function(team){			
+
+		$rootScope.team = team;	
+		console.log(team);
 	};
 
 }]);

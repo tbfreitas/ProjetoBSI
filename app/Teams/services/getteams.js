@@ -10,16 +10,14 @@ app.service('getteams',['$http', function($http) {
   function saveteam(teamName) {
 
     var url = 'app/Teams/mock/Teams/' + teamName +'.js';
-    
-    console.log(url);
 
     $http.get(url)
          .success(function(data){
               team = data;
-         })            
-          
+              console.log(team);
+         })           
          .error(function(data){
-            console.log("Deu ruim");
+            console.log("Teste de erro.");
           })
       
   };
