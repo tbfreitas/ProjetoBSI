@@ -3,19 +3,24 @@
 		<header ng-controller="employersController">
 			<div class="devSpace"  >
 				<img class="BSImage" src="Assets/Images/BSILogoBrancoQuad.png">
-				
-
 			</div>
 			<span class="teste projectName">
-				aushaushuash
+				{{teamName}}
 			</span>
 			
 		</header>
 
 		<div style="width: 100%; height: 5px; background-color: #505050;"></div>	
+
+		<div id="spacePlot" ng-controller="employersController" style="width: 100%;" >
+			<div ng-repeat="func in team.Funcs" >
+				<blockfunc func='func'></block>
+			</div>
+		</div>
 		
 		<script src="app/app.js"></script>
-	    <script src="app/Teams/employersController.js"></script>	
+	    <script src="app/Teams/employersController.js"></script>
+	    <script src="app/Teams/directives/blockfunc/blockfunc.js"></script>		
 	    <script src="app/Teams/directives/block/block.js"></script>	
 	    <script src="app/Teams/services/requests.js"></script>
 	    <script src="app/Teams/services/getteams.js"></script>	

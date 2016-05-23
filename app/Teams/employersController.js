@@ -1,12 +1,10 @@
 app.controller('employersController',['$scope','requests','getteams','$rootScope', '$routeParams' , function($scope,requests,getteams,$rootScope,$routeParams){
 
-	var team = $routeParams.teamNome;
+	$scope.teamName = $routeParams.teamNome;
+	var name        = $routeParams.teamNome;
 
-	getteams.getteam(team,function(data){
-
+	getteams.getteam(name,function(data){
 		$scope.team = data;
-		console.log($scope.team);
-
 	},function(){
 
 

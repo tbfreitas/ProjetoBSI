@@ -1,5 +1,5 @@
 {
-	"Funcionarios" : 
+	"Funcs" : 
 			[{
 				"Nome" : "Tarcisio"
 			},
@@ -13,4 +13,4 @@
 				"Nome" : "Mario"
 			}]			
 
-},
+}
