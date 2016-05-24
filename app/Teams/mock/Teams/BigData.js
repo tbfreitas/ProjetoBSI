@@ -1,16 +1,19 @@
 {
 	"Funcs" : 
 			[{
-				"Nome" : "Tarcisio"
+				"Nome"  : "Tarcisio",
+				"Image" : "app/Teams/mock/Teams/Profiles/tarcisio.jpg"
 			},
 			{
-				"Nome" : "Michel"
+				"Nome" : "Michael",
+				"Image" : "app/Teams/mock/Teams/Profiles/michael.jpg"
 			},
 			{
-				"Nome" : "Henrique"
+				"Nome" : "Henrique",
+				"Image" : "app/Teams/mock/Teams/Profiles/henrique.jpg"
 			},
 			{
-				"Nome" : "Mario"
+				"Nome" : "Mário"
 			}]			
 
 }

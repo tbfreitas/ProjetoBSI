@@ -1,0 +1,180 @@
+.firstHeader{
+	width: 100%;
+	background: #3c3b3b !important;
+	height: 68px;
+	
+}
+
+.header{
+	position: relative;
+	width: 90%; 
+	height: 300px;
+	background-color: #333;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+} 
+
+.firstNav{
+	margin:0;
+    padding:0;
+    text-align:center;
+    font-size: 0px;
+
+ 	
+}
+
+.firstNav ul{
+	height: 100%;
+	margin: 0;
+    vertical-align: middle;
+    line-height: 68px;
+}
+
+.firstNav ul li{
+	display: inline-block;	
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	height: 100%;
+}
+
+.firstNav ul li a{
+	height: 100%;
+	margin-left: 0px;
+	color: #eee;
+	display: block;
+	font-family:arial; 
+	text-transform: uppercase; 
+	padding: 0px 18px 9px; 
+	text-decoration: none;
+	font-size: 20px;	
+	font-family: Oswald;
+}
+
+.firstNav li:last-child{
+	border-right: 0px;	
+}
+
+.body{
+	margin:0;
+	padding:0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #dfdfdf;
+}
+
+.content{
+	width: 90%; 
+	margin-top: 1%;	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divleft{
+	float:left;
+	width: 20%;
+	background-color: #333; 
+	height: 25%;
+	
+}
+
+.divmid{
+	width: 20%;
+	height: 25%;
+	margin-left: 5%;
+	background-color: #333;
+	float:left;
+}
+
+.divright{
+	position: relative;
+	height: 25%;	
+	width: 25%;
+	background-color: #333;	 
+	margin-left: 75%;	
+}
+
+.lastDiv{
+	width: 20%;
+	height: 25%;
+	margin-left: 5%;
+	background-color: #333;
+	float:left;
+}
+
+.customface{
+	float : right;
+	right: 15px;
+	vertical-align: middle;
+	top:18px;
+	
+}
+
+.customLog{
+	line-height: 30px !important; 
+	background-color: transparent !important;
+}
+
+.firstNav ul li a:hover{
+	color: #57cfe5;
+	background-color: #434343;
+}
+
+.custominsta{
+	float : right;
+	right: 30px;
+	vertical-align: middle;
+	top:18px;
+	
+}
+
+.custominput{
+	float : right;
+	vertical-align: middle;
+	margin-top:18px;
+	height: 32px;	
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.monetLogo{
+	font-size: 50px;
+	float: left;
+	margin-left: 15px;
+	cursor: pointer;
+	color: #eee;
+}
+
+.monetLogo:hover{
+	color: #57cfe5;	
+}
+
+.custominsta:hover{
+	color: #57cfe5 !important;
+}
+
+.customface:hover{
+	color: #57cfe5 !important;
+}
+
+
+.customsearch{
+	float : right;
+	margin-right: 15px;
+	vertical-align: middle;
+	margin-top:18px;
+	height: 32px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+
+}
+
+.centralimg {
+  width:50%;
+  height:100%;
+}
+
+.box{
+	border: 1px solid #808080;
+	border-radius: 2px ;
+}

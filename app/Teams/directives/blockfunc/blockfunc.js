@@ -9,10 +9,14 @@ app.directive('blockfunc', function(){
 		templateUrl : 'app/Teams/directives/blockfunc/blockfunc.html',
 		link: function (scope,element, attrs) {			
 
-			scope.func = scope.func;
+			scope.func = scope.func;  
+			var url = scope.func.Image;  
 
-			console.log(scope.func)    
-			
+			var x = element[0].children[0].children[1];
+		
+			$(x).css("background-size", "193px");
+			$(x).css("background-image", "url("+url+") ");
+
 	    }	
 	}
 })
