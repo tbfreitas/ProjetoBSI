@@ -13,7 +13,8 @@
 				"Image" : "app/Teams/mock/Teams/Profiles/henrique.jpg"
 			},
 			{
-				"Nome" : "Mário"
+				"Nome" : "Mário",
+				"Image" : "app/Teams/mock/Teams/Profiles/mario.jpg"
 			}]			
 
 }
