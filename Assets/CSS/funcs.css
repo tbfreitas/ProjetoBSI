@@ -1,0 +1,68 @@
+.funcdiv{
+	width: 80%;
+	background-color: black;
+	height: 250px; 
+	margin-top: 30px;
+	margin-left: 10%; 
+	border-radius: 10px;
+}
+
+.profilespace{
+	width: 20%;
+	height: 100%;
+	border-right: 1px solid white ; 
+	float : left;
+}
+
+.namespace{
+	width: 100%;
+	height: 30%; 
+	text-align: center;
+}
+
+.fotospace{
+	position : relative;
+	width: 90%;
+	border-radius:50%;
+	background-color: white; 
+	height: 65%;
+	margin-left: 5%;
+}
+
+.spaname{
+	font-size: 25px;
+	display: inline-block;
+	line-height: 300%;
+}
+
+.tablespace{
+	width: 75%;
+	height: 100%;
+	float : left; 
+	left: 30%;
+	border-right: 1px solid white;
+}
+
+.carac{
+	margin-left: 6%;
+	width: 88% !important; 
+	height:220px;
+	margin-top:15px;
+	color: white;
+	border-radius: 35px !important;
+}
+
+.socialspace{
+	border: 1px solid white;
+	border-radius : 5px;
+	height: 210px; 
+	width: 4%;
+	float: left; 
+	margin-top: 20px; 
+	text-align: center;
+	margin-left: 0.5%;
+}
+
+.center{
+	text-align: center;
+}

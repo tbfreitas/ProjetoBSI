@@ -1,21 +1,19 @@
-<div style="width: 80%;background-color: black; height: 250px; margin-top: 30px; margin-left: 10%; border-radius: 10px;" >
+<div class="funcdiv"  >
 
-	<div style="width: 20%;height: 100%; border-right: 1px solid white ; float : left">		
-		
+	<div class="profilespace" >			
 
-		<div style="width: 100%;height: 30%; text-align: center;" >
-			<span style="font-size: 25px;display: inline-block; line-height: 300%;" class="teste">{{func.Nome}}</span>
+		<div class="namespace" >
+			<span class="teste spaname">{{func.Nome}}</span>
 		</div>
 
-		<div style="position : relative;width: 90%;border-radius:50%;background-color: white; height: 65%;margin-left: 5%; ">
-			 
+		<div class="fotospace">			 
 		</div>
 		
 	</div>
 
-	<div style="background-color: ; width: 75%;height: 100%;float : left; left: 30%;border-right: 1px solid white;">
+	<div class="tablespace">
 
-		<table class="table table-bordered" style="margin-left: 6%;width: 88%; height:220px;margin-top:15px;background-color: #00007F !important;color: white;">
+		<table class="carac table table-bordered" >
 			<thead>
 
 			    <tr>			     
@@ -24,36 +22,20 @@
 			    </tr>
 			 </thead>
 
-			 <tbody>
+			 <tbody ng-repeat="(key, value) in func.Caracteristicas">
 			 
 			 <!-- Usar ng-repeat na tr para ciar uma TH e uma TD para cada caracteristica e seu valor -->
 			    <tr>
-			      <th scope="row">Nome Completo</th>
-			      <td>Mark</td>
-			    </tr>
-			    
-			    <tr>
-			      <th scope="row">Altura</th>
-			      <td>Mark</td>
-
-			    </tr>
-
-			    <tr>
-			      <th scope="row">Email</th>
-			      <td>Jacob</td>
-			    </tr>
-
-			    <tr>
-			      <th scope="row">Apelidos</th>
-			      <td colspan="2">Larry the Bird</td>			
-			    </tr>
+			      <th scope="row" style="width: 40%;">{{key}}</th>
+			      <td>{{value}}</td>
+			    </tr>		   
 
 			  </tbody>
 		</table>
 	  	 
 	</div>
 
-	<div style="border: 1px solid white;border-radius : 5px;height: 210px; width: 4%;float: left; margin-top: 20px; text-align: center;margin-left: 0.5%;">
+	<div class="socialspace">
 
 		<a class="btn btn-social-icon btn-facebook" style="margin-top: 30px;"><span class="fa fa-facebook"></span></a>
 		<a class="btn btn-social-icon btn-github" style="margin-top: 10px;"><span class="fa fa-github"></span></a>
