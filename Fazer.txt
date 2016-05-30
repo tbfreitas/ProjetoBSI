@@ -1,0 +1,4 @@
+- Tela de login (pegar um bootstrap layout)
+- Procura por pessoa
+- Colocar rodapé
+- Linkar facebook, instagram e tudo mais 
