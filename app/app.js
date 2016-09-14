@@ -12,7 +12,7 @@ app.config(['$routeProvider', function($routeProvider) {
         controller: 'employersController'
       }).     
       otherwise({
-        redirectTo: '/team.html'
+        redirectTo: 'team.html',
       });
 
 }]);

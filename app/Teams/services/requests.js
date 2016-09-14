@@ -6,7 +6,8 @@ app.factory('requests', [ '$http', function($http){
 
 	function getMock(onSucess,onError){		
 
-		$http.get('app/Teams/mock/teams.js')
+
+		$http.get('http://localhost:8888/back/team-management/teams')
             .success(function(data,status){
                 onSucess(data);
             })
@@ -15,6 +16,7 @@ app.factory('requests', [ '$http', function($http){
             })
 
 	}	
+
 	
 
 	 
