@@ -1,5 +1,5 @@
 {
-	"Teams" : 
+	"Teams" :
 		 [{
 			"Nome"  : "Cobol",
 			"Image" : "Assets/Images/cobol.png"

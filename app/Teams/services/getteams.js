@@ -1,5 +1,5 @@
 app.service('getteams',['$http','$rootScope' ,  function($http, $rootScope) {
-  
+
   return{
       getteam  : getteam
   }
@@ -12,11 +12,11 @@ app.service('getteams',['$http','$rootScope' ,  function($http, $rootScope) {
          .success(function(data){
               onSuccess(data);
 
-         })           
+         })
          .error(function(data){
             console.log("Teste de erro.");
           })
-      
+
   };
 
 
