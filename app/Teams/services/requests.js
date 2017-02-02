@@ -1,13 +1,15 @@
 app.factory('requests', [ '$http', function($http){
 
 	return{
-		getMock : getMock
+		getAllTeams : getAllTeams,
+		getOneTeam  : getOneTeam
+
 	}
 
-	function getMock(onSucess,onError){
+	function getAllTeams(onSucess,onError){
 
-		// var url = http://localhost:8888/back/team-management/teams
-		var url = 'app/Teams/mock/teams.js';
+		var url = 'http://localhost:8888/back/team-management/teams';
+		//var url = 'app/Teams/mock/teams.js';
 
 		$http.get(url)
             .success(function(data,status){
@@ -18,6 +20,22 @@ app.factory('requests', [ '$http', function($http){
             })
 
 	}
+
+	function getOneTeam(teamId,onSuccess,onError) {
+
+		//var url = 'app/Teams/mock/Teams/' + teamName +'.js';
+		var url = 'http://localhost:8888/back/team-management/teams/' + teamId;
+
+		$http.get(url)
+				 .success(function(data){
+							onSuccess(data);
+
+				 })
+				 .error(function(data){
+						console.log("Teste de erro.");
+					})
+
+	};
 
 
 

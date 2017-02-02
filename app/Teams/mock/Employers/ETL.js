@@ -1,9 +1,9 @@
 {
-	"Funcs" : 
+	"Funcs" :
 			[{
 				"Nome"  : "Ytalo",
 				"Image" : "app/Teams/mock/Teams/Profiles/ytalo.jpg",
-				"Caracteristicas" : 
+				"Caracteristicas" :
 					{
 						"Nome Completo" : "Ytalo Carvalho",
 						"Cargo"         : "Analista Pleno Extreme",
@@ -16,9 +16,9 @@
 			{
 				"Nome" : "Matheus",
 				"Image" : "app/Teams/mock/Teams/Profiles/matheus.jpg",
-				"Caracteristicas" : 
+				"Caracteristicas" :
 					{
-						"Nome Completo" : "Matheus Souza",
+						"Nome Completo" : "Matheus",
 						"Cargo"         : "Analista Pleno Extreme",
 						"E-mail"        : "souza.matheus@bsitecnologia.com.br",
 						"Conhecimentos" : "ETL, MySql, Falar diqueito",
@@ -29,7 +29,7 @@
 			{
 				"Nome" : "Iuri",
 				"Image" : "app/Teams/mock/Teams/Profiles/iuri.jpg",
-				"Caracteristicas" : 
+				"Caracteristicas" :
 					{
 						"Nome Completo" : "Iuri Batista",
 						"Cargo"         : "Analista Jr God",
@@ -42,7 +42,7 @@
 			{
 				"Nome" : "André",
 				"Image" : "app/Teams/mock/Teams/Profiles/andre.jpg",
-				"Caracteristicas" : 
+				"Caracteristicas" :
 					{
 						"Nome Completo" : "André Gomes",
 						"Cargo"         : "Analista anão supremo",
@@ -51,6 +51,6 @@
 						"Salário"       :  "R$ 6.700,00"
 
 					}
-			}]			
+			}]
 
 }

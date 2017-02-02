@@ -1,9 +1,9 @@
 {
-	"Funcs" : 
+	"Funcs" :
 			[{
 				"Nome"  : "Emerick",
 				"Image" : "app/Teams/mock/Teams/Profiles/emerick.jpg",
-				"Caracteristicas" : 
+				"Caracteristicas" :
 					{
 						"Nome Completo" : "Tiago Emerick",
 						"Cargo"         : "Analista Sênior God Supreme",
@@ -16,7 +16,7 @@
 			{
 				"Nome" : "Sard",
 				"Image" : "app/Teams/mock/Teams/Profiles/sard.jpg",
-				"Caracteristicas" : 
+				"Caracteristicas" :
 					{
 						"Nome Completo" : "Rafael Sardenberg",
 						"Cargo"         : "Analista Pleno Concurseiro",
@@ -25,6 +25,6 @@
 						"Salário"       :  "R$ 10.000,00"
 
 					}
-			}]			
+			}]
 
 }

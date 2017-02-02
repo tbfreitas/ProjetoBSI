@@ -1,0 +1,19 @@
+
+<header>
+	<div class="devSpace">
+		<img class="BSImage" src="Assets/Images/BSILogoBrancoQuad.png">
+	</div>
+	<span class="teste projectName">BSI TIMES</span>
+
+</header>
+
+<div class="border-bottom" ></div>
+
+<!--USAR NG-VIEW AQUI PARA A ROTA FUNCIONAR -->
+
+<div id="spacePlot" class="spacePlot" >
+	<div ng-repeat="team in teams" >
+		<a ng-href="#/employers/?teamId={{team.id}}"><block team='team' ng-click="teste(team)"></block>
+		</a>
+	</div>
+</div>

@@ -11,11 +11,12 @@ app.directive('blockfunc', function(){
 
 			scope.func 	   = scope.func;  
 			
-			var url 	   = scope.func.Image;  
+			var url 	   = scope.func.image; 
+		
 			var children   = element[0].children[0].children[1];
 		
 			$(children).css("background-size", "193px");
-			$(children).css("background-image", "url("+url+") ");
+			$(children).css("background-image", "url(data:image/png;base64,"+url+") ");
 
 	    }	
 	}
